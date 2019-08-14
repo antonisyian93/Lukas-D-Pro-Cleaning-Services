@@ -1,0 +1,264 @@
+/*### TOP HEADER ###*/
+.top-header{
+    height: 250px;
+    color: #393e46;
+}
+
+.top-header #logo{
+    position: absolute;
+    left: 10%;
+    top: 0px;
+    z-index: -1;
+    background-size: cover;
+}
+
+.top-header #page-heading{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    z-index: -1;
+}
+
+.top-header #page-sub-heading{
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    z-index: -1;
+}
+
+/*### NANIGATION BAR ###*/
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+/* Make default navbar links display block at choosen breakpoint and adjust styles to fit...*/
+@media (max-width: 1000px) {
+	.navbar-nav {
+		padding-top: 10px;
+        padding-left: 10px;
+        background-color: 262626;
+	}
+	.navbar-nav .nav-item {
+        float: center;
+	}
+	.navbar-brand {
+		float: center;
+	}
+	.navbar-brand .navbar-nav .nav-item {
+        display: block;
+        display: inline;
+        align-items: center;
+	}
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 10%;
+	}
+	.dropdown-menu {
+		position: relative;
+		float: none;
+	}
+}
+
+
+/*### FOOTER ###*/
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #262626;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+/* Make default navbar links display block at choosen breakpoint and adjust styles to fit...*/
+@media (max-width: 1500px) {
+    .top-header #page-heading{
+        font-size: 25px;
+        position: absolute;
+        left: 55%;
+        top: 10%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 55%;
+        top: 15%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1000px) {
+	.navbar-nav {
+		padding-top: 10px;
+        padding-left: 10px;
+        background-color: 262626;
+    }
+    
+	.navbar-nav .nav-item {
+        float: center;
+    }
+    
+	.navbar-brand {
+		float: center;
+    }
+    
+	.navbar-brand .navbar-nav .nav-item {
+        display: block;
+        display: inline;
+        align-items: center;
+    }
+    
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 10%;
+    }
+    
+	.dropdown-menu {
+		position: relative;
+		float: none;
+    }
+    
+    .card-body{
+        margin-top: 50px;
+    }
+
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 70%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1400px) {
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 75%;
+        z-index: -1;
+    }
+}
+
+.main{
+    position: relative;
+    background: url(../images/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+    margin-bottom: -15.7px;
+}
+
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: #dcdde1;
+    font-weight: bold;
+}
+
+.main .btn{
+    background: #718093;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main .btn:hover{
+    background: #263859;
+}
+
+@media(max-width: 768px)
+{
+    .main{
+        padding: 200px 0;
+    }
+
+    .main h2{
+        font-size: 2em;
+    }
+
+    #team .carousel-inner img{
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+
+    .card-body{
+        margin-top: 50px;
+    }
+
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 65%;
+        top: 15%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 65%;
+        top: 35%;
+        z-index: -1;
+    }
+}
+

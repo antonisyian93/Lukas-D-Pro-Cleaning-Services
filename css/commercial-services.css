@@ -1,0 +1,310 @@
+/*### TOP HEADER ###*/
+.top-header{
+    height: 250px;
+    color: #393e46;
+}
+
+.top-header #logo{
+    position: absolute;
+    left: 10%;
+    top: 0px;
+    z-index: -1;
+    background-size: cover;
+}
+
+.top-header #page-heading{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+    z-index: -1;
+}
+
+.top-header #page-sub-heading{
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    z-index: -1;
+}
+
+#team .information{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+/*### NANIGATION BAR ###*/
+#header{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+/* Make default navbar links display block at choosen breakpoint and adjust styles to fit...*/
+@media (max-width: 1500px) {
+    .top-header #page-heading{
+        font-size: 25px;
+        position: absolute;
+        left: 55%;
+        top: 10%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 55%;
+        top: 15%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 1000px) {
+	.navbar-nav {
+		padding-top: 10px;
+        padding-left: 10px;
+        background-color: 262626;
+    }
+    
+	.navbar-nav .nav-item {
+        float: center;
+    }
+    
+	.navbar-brand {
+		float: center;
+    }
+    
+	.navbar-brand .navbar-nav .nav-item {
+        display: block;
+        display: inline;
+        align-items: center;
+    }
+    
+	.navbar-nav .nav-item + .nav-item {
+		margin-left: 10%;
+    }
+    
+	.dropdown-menu {
+		position: relative;
+		float: none;
+    }
+    
+    .card-body{
+        margin-top: 50px;
+    }
+
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 70%;
+        z-index: -1;
+    }
+
+    #team .information{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 1400px) {
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 10%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 15%;
+        z-index: -1;
+    }
+}
+
+@media (max-width: 950px)
+{
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 60%;
+        top: 40%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 60%;
+        top: 75%;
+        z-index: -1;
+    }
+}
+
+.main{
+    position: relative;
+    background: url(../images/bg.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding: 220px 0 200px;
+    margin-bottom: -15.7px;
+}
+
+.main h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.6em;
+    color: #dcdde1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.main p{
+    margin-top: 1em;
+    padding: 0;
+    font-size: 1em;
+    color: #dcdde1;
+    font-weight: bold;
+}
+
+.main .btn{
+    background: #718093;
+    color: #fff;
+    border-radius: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main .btn:hover{
+    background: #263859;
+}
+
+/*### CARD ###*/
+#team{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: #fd5f00;
+    margin-bottom: -16px;
+}
+
+#team .carousel-inner img{
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+#team .card{
+    background-color: black;
+}
+
+.card-body{
+    background-color: #262626;
+    color: #fd5f00;
+}
+
+#line{
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(253, 95, 0, 1), rgba(0, 0, 0, 0));
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+#team h1{
+    font-size: 66px;
+}
+
+#team img{
+    margin-top: -50px;
+}
+
+#team i{
+    font-size: 16px;
+    color: #207dff;
+}
+
+#team i a{
+    font-size: 26px;
+    color: #fff;
+}
+
+#team p{
+    font-weight: 500;
+}
+
+#team .card .card-body{
+    border-radius: 0;
+    border-color: #e74c3c;
+    box-shadow: 5px 5px 15px #e74c3c;
+    transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    height: 350px;
+}
+
+/*### FOOTER ###*/
+.footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: #262626;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+@media(max-width: 768px)
+{
+    .main{
+        padding: 200px 0;
+    }
+
+    .main h2{
+        font-size: 2em;
+    }
+
+    #team .carousel-inner img{
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+    }
+
+    .card-body{
+        margin-top: 50px;
+    }
+
+    .top-header #page-heading{
+        font-size: 20px;
+        position: absolute;
+        left: 65%;
+        top: 15%;
+        z-index: -1;
+        font-weight: bold;
+    }
+
+    .top-header #page-sub-heading{
+        font-size: 15px;
+        position: absolute;
+        left: 65%;
+        top: 35%;
+        z-index: -1;
+    }
+}
+
